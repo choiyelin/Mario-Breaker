@@ -3,17 +3,17 @@ package mario_break;
 import javax.swing.ImageIcon;
 
 public class Block extends RectangleShape{
-	private boolean broke;                            //ºí·°ÀÌ ±úÁö´Â°É booleanÀ¸·Î Ç¥Çö
+	private boolean broke;                            //ë¸”ëŸ­ì´ ê¹¨ì§€ëŠ”ê±¸ booleanìœ¼ë¡œ í‘œí˜„
 	
 	public Block(int x, int y) {
 		
 		setBlock(x,y);
 	}
 	
-	private void setBlock(int x, int y) {             //Ã³À½ À§Ä¡ ½ÃÅ³¶§ broke °ª false¶ó È­¸é¿¡ ³ªÅ¸³ª°Ô µÈ´Ù
+	private void setBlock(int x, int y) {             //ì²˜ìŒ ìœ„ì¹˜ ì‹œí‚¬ë•Œ broke ê°’ falseë¼ í™”ë©´ì— ë‚˜íƒ€ë‚˜ê²Œ ëœë‹¤
 		this.x = x;
 		this.y = y;
-		int d;
+		
 		
 		
 		broke=false;   
